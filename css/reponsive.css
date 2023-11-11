@@ -1,0 +1,292 @@
+@media screen and (max-width: 1440px) {
+  .banner {
+    padding: 90px 0;
+  }
+  .banner__description {
+    width: 40%;
+  }
+  .banner__tryfree {
+    width: 40%;
+  }
+  .tabsoft__list {
+    padding-right: 90px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    width: 75px;
+    height: 24px;
+  }
+  .header__content nav ul li {
+    font-size: 14px;
+    padding-right: 35px;
+  }
+  .banner {
+    padding: 70px 0;
+  }
+  .banner__description {
+    width: 40%;
+  }
+  .banner__tryfree {
+    width: 40%;
+  }
+  .banner__tryfree .info {
+    padding: 25px 25px 0;
+  }
+  .banner__tryfree .info input {
+    font-size: 12px;
+  }
+  .banner__tryfree button {
+    font-size: 13px;
+  }
+  .pb-40 {
+    padding-bottom: 30px;
+  }
+  .pb-25 {
+    padding-bottom: 15px;
+  }
+  .fs-36 {
+    font-size: 24px;
+  }
+  .fs-20 {
+    font-size: 15px;
+  }
+  .fs-16 {
+    font-size: 14px;
+  }
+  .fs-15 {
+    font-size: 13px;
+  }
+  .fs-14 {
+    font-size: 12px;
+  }
+  .underline__orange {
+    margin-bottom: 15px;
+  }
+  .banner__underline {
+    margin-bottom: 30px;
+  }
+  .tabsoft__list {
+    padding-right: 60px;
+  }
+  .tabsoft__inner {
+    padding: 10px 0;
+  }
+  .tabsoft__item {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__logo {
+    width: 62px;
+    height: 21px;
+  }
+  .header__content nav ul li {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+  .tabsoft__list {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 54px;
+    height: 18px;
+  }
+  .header__content nav ul li {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .banner__underline {
+    height: 2px;
+  }
+  .banner__tryfree .info {
+    padding: 15px 15px 0;
+  }
+  .banner__tryfree .info input {
+    font-size: 11px;
+    margin-bottom: 35px;
+  }
+  .banner__tryfree button {
+    font-size: 12px;
+    padding: 15px 0;
+  }
+  .pb-40 {
+    padding-bottom: 20px;
+  }
+  .fs-36 {
+    font-size: 20px;
+  }
+  .fs-20 {
+    font-size: 14px;
+  }
+  .fs-16 {
+    font-size: 12px;
+  }
+  .fs-15 {
+    font-size: 12px;
+  }
+  .fs-14 {
+    font-size: 11px;
+  }
+  .banner__underline {
+    margin-bottom: 30px;
+  }
+  .tabsoft__wrapper, .standard__wrapper {
+    padding: 80px 0;
+  }
+  .tabsoft__list {
+    padding-right: 30px;
+  }
+  .tabsoft__item {
+    width: 60px;
+    height: 60px;
+  }
+  .sublist {
+    flex-direction: column-reverse;
+  }
+  .sublist__img {
+    width: 100%;
+  }
+  .sublist__content {
+    width: 100%;
+  }
+  .pb-25-mobile {
+    padding-bottom: 25px;
+  }
+  .standard__content {
+    flex-direction: column;
+  }
+  .awesome__content {
+    flex-direction: column;
+  }
+  .awesome__item{
+    padding-right: 0;
+  }
+  .awesome__item .awesome__icon {
+    margin-right: 0;
+    height: 50px;
+    width: 50px;
+  }
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  .ta-center {
+    text-align: center;
+  }
+  .contact__content {
+    flex-direction: column;
+  }
+  .contact__content .info, .message {
+    width: 100%;
+  }
+  .contact__content .info input:last-child {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    width: 46px;
+    height: 15px;
+  }
+  .header__content nav ul li {
+    font-size: 11px;
+    padding-right: 10px;
+  }
+  .banner__underline {
+    height: 1px;
+  }
+  .banner__tryfree .info {
+    padding: 10px 10px 0;
+  }
+  .banner__tryfree .info input {
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+  .banner__tryfree button {
+    font-size: 10px;
+    padding: 15px 0;
+  }
+  .pb-40 {
+    padding-bottom: 20px;
+  }
+  .fs-36 {
+    font-size: 18px;
+  }
+  .fs-20 {
+    font-size: 13px;
+  }
+  .fs-16 {
+    font-size: 11px;
+  }
+  .fs-15 {
+    font-size: 10px;
+  }
+  .fs-14 {
+    font-size: 10px;
+  }
+  .banner__underline, .banner__description .banner__logo {
+    margin-bottom: 20px;
+  }
+  .banner__description .banner__logo {
+    width: 100px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    width: 36px;
+    height: 12px;
+  }
+  .header__content nav ul li {
+    font-size: 10px;
+    padding-right: 5px;
+  }
+  .banner {
+    padding: 30px 0;
+  }
+  .common-flex {
+    width: 84%;
+  }
+  .banner__description {
+    width: 45%;
+  }
+  .banner__tryfree {
+    width: 45%;
+  }
+  .fs-20 {
+    font-size: 11px;
+  }
+  .tabsoft__wrapper {
+    padding: 60px 0;
+  }
+  .tabsoft__list {
+    padding-right: 20px;
+  }
+  .tabsoft__item {
+    width: 40px;
+    height: 40px;
+  }
+  .tabsoft__child p {
+    line-height: 15px;
+  }
+  .lh-20 {
+    list-style: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__content nav ul li {
+    font-size: 8px;
+    padding-right: 3px;
+  }
+}
