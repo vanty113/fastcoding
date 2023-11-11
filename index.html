@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axit</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reponsive.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo_navbar.png">
+    <link
+      rel="stylesheet"
+      href="./fonts/fontawesome/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header__wrapper">
+          <div class="header__content">
+            <div class="header__menu common-flex">
+              <div class="header__logo">
+                <img
+                  src="./images/logo_navbar.png"
+                  alt="Axit"
+                />
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="banner common-flex">
+            <div class="banner__description">
+              <div class="banner__logo">
+                <img
+                  src="./images/logo_navbar.png"
+                  alt="Axit"
+                />
+              </div>
+              <h1 class="fs-36 pb-40 fw-400">
+                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+              </h1>
+              <div class="banner__underline"></div>
+              <p class="pb-40 fs-16">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo.
+              </p>
+              <button class="fs-15">Download</button>
+            </div>
+            <form class="banner__tryfree">
+              <h3 class="bg-brown fs-20">
+                Start Your <span class="color-orange">FREE</span> Trial Today
+              </h3>
+              <div class="info">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+              </div>
+              <button type="button">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="tabsoft">
+          <div class="tabsoft__wrapper common-flex">
+            <div class="tabsoft__content">
+              <div id="highlight-element" class="tabsoft__list">
+                <div
+                  class="tabsoft__item fs-15 active"
+                  onclick="divVisibility('tab1');"
+                >
+                  TAB 1
+                </div>
+                <div
+                  class="tabsoft__item fs-15"
+                  onclick="divVisibility('tab2');"
+                >
+                  TAB 2
+                </div>
+                <div
+                  class="tabsoft__item fs-15"
+                  onclick="divVisibility('tab3');"
+                >
+                  TAB 3
+                </div>
+              </div>
+              
+              <div class="tabsoft__inner">
+                <div id="tab1" class="tabsoft__child">
+                  <h3 class="fs-20 pb-25">
+                    Tabs with soft transitioning effect.
+                  </h3>
+                  <div class="underline__orange"></div>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <button class="fs-15">Call to Action</button>
+                </div>
+                <div id="tab2" class="tabsoft__child" style="display: none">
+                  <h3 class="fs-20 pb-25">
+                    Tabs with soft transitioning effect2.
+                  </h3>
+                  <div class="underline__orange"></div>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <button class="fs-15 visibility">Call to Action</button>
+                </div>
+                <div id="tab3" class="tabsoft__child" style="display: none">
+                  <h3 class="fs-20 pb-25">
+                    Tabs with soft transitioning effect3.
+                  </h3>
+                  <div class="underline__orange"></div>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p class="pb-25 fs-14">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <button class="fs-15 visibility">Call to Action</button>
+                </div>
+              </div>
+            </div>
+            <div class="tabsoft__img">
+              <img src="./images/image_right.png" alt="Axit" />
+            </div>
+          </div>
+        </div>
+
+        <div class="sublist tabsoft__wrapper common-flex">
+          <div class="sublist__img">
+            <img
+              src="./images/image_left_sub_list.png"
+              alt="image_left_sub_list"
+            />
+          </div>
+          <div class="sublist__content pb-25-mobile">
+            <h3 class="fs-20 pb-25">Sub list section</h3>
+            <div class="underline__orange"></div>
+            <p class="pb-25 fs-14 lh-20 cl-86878B">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo.
+            </p>
+            <div class="sublist__item">
+              <div class="icon">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+              </div>
+              <div class="description">
+                <h4 class="fs-14">Title</h4>
+                <p class="fs-14 lh-20 cl-86878B">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+              </div>
+            </div>
+            <div class="sublist__item">
+              <div class="icon">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+              </div>
+              <div class="description">
+                <h4 class="fs-14">Title</h4>
+                <p class="fs-14 lh-20 cl-86878B">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="standard bg-brown">
+          <div
+            class="standard__content standard__wrapper sublist tabsoft__wrapper common-flex"
+          >
+            <div class="sublist__content">
+              <h3 class="fs-20 pb-25">Standard Picture Section</h3>
+              <div class="underline__orange"></div>
+              <p class="pb-25 fs-14 lh-20 cl-86878B">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo. Proin sodales pulvinar
+                tempor. Cum sociis natoque penatibus et magnis dis parturient
+                montes.
+              </p>
+              <p class="pb-25 fs-14 lh-20 cl-86878B">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
+            <div class="sublist__img">
+              <img
+                src="./images/image_right_standard_u300.png"
+                alt="image_left_sub_list"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="awesome standard__wrapper tabsoft__wrapper common-flex">
+          <h1 class="fs-36 pb-25 fw-400">WHY THIS IS AWESOME</h1>
+          <div class="underline__orange"></div>
+          <p class="fs-14 pb-25 cl-86878B">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <div class="awesome__content">
+            <div class="awesome__item pr-30">
+              <div class="awesome__icon mb-25">
+                <i class="fa-regular fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-20 pb-25">Thoughtful Design</h3>
+              <p class="fs-14 lh-20 cl-86878B mb-50">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+            <div class="awesome__item pr-30">
+              <div class="awesome__icon mb-25">
+                <i class="fa-regular fa-keyboard"></i>
+              </div>
+              <h3 class="fs-20 pb-25">Well Crafted</h3>
+              <p class="fs-14 lh-20 cl-86878B mb-50">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+            <div class="awesome__item">
+              <div class="awesome__icon mb-25">
+                <i class="fa-solid fa-bolt-lightning"></i>
+              </div>
+              <h3 class="fs-20 pb-25">Easy to Customize</h3>
+              <p class="fs-14 lh-20 cl-86878B">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stylist">
+          <div class="stylist__wrapper">
+            <div class="stylist__content common-flex">
+              <h1 class="fs-36 pb-25 fw-400">STYLISH AXURE DESIGN</h1>
+              <div class="underline__orange bg-white"></div>
+              <p class="fs-16 pb-40 ta-center">
+                Use the sections you need, remove the ones you don't. Create
+                gorgeous prototypes faster than ever!
+              </p>
+              <button>Call to Action</button>
+            </div>
+          </div>
+        </div>
+        <div class="contact common-flex standard__wrapper">
+          <h1 class="fs-36 pb-25 fw-400">CONTACT US</h1>
+          <div class="underline__orange"></div>
+          <p class="fs-14 pb-40 cl-86878B">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <div class="contact__content">
+            <div class="info">
+              <input class="fs-14" type="text" placeholder="Name" />
+              <input class="fs-14" type="email" placeholder="Email" />
+              <input class="fs-14" type="text" placeholder="Subject" />
+            </div>
+            <div class="message">
+              <textarea
+                class="fs-14"
+                name="message"
+                id="message"
+                cols="30"
+                rows="11"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <button class="fs-15">Send Message</button>
+        </div>
+      </main>
+      <footer class="footer">
+        <ul class="social-links">
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-google-plus-g"></i></li>
+          <li><i class="fa-brands fa-pinterest"></i></li>
+          <li><i class="fa-solid fa-camera-retro"></i></li>
+          <li><i class="fa-solid fa-wifi"></i></li>
+        </ul>
+        <div class="copyright">© 2016 <span>Axure Themes</span></div>
+      </footer>
+    </div>
+    <script src="./js/common.js"></script>
+  </body>
+</html>
